@@ -1,6 +1,6 @@
 {
   "name": "@walkingriver/make-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Makes a bunch of iOS App icons from a Master image.",
   "main": "cli.js",
   "scripts": {
