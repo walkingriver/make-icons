@@ -1,0 +1,30 @@
+{
+  "name": "wr-make-icons",
+  "version": "0.0.1",
+  "description": "Makes a bunch of iOS App icons from a Master image.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "bin": {
+    "make-icons": "./cli.js"
+  },
+  "keywords": [
+    "node",
+    "ionic",
+    "capacitor",
+    "ios",
+    "icons"
+  ],
+  "author": "Michael Callaghan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walkingriver/make-icons"
+  },
+  "homepage": "https://github.com/walkingriver/make-icons",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.23.0"
+  }
+}
