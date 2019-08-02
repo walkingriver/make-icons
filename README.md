@@ -5,7 +5,7 @@ Makes a bunch of iOS App icons from a Master image
 
 1. Install make-icons
 ```sh
-npm install -g @wr/make-icons
+npm install -g @walkingriver/make-icons
 ```
 
 2. Create a PNG image, at least 1024x1024, without rounded corners, and without transparency. You may also use this icon ![sample image](icon.png), which is included as a sample.
@@ -22,7 +22,7 @@ npm install -g @wr/make-icons
 - Windows
 
 ## Adding to your Ionic/Capacitor project
-1. Add this package as a devDependency, with `npm -D @wr/make-icons`
+1. Add this package as a devDependency, with `npm -D @walkingriver/make-icons`
 1. Open `package.json`.
 1. Add the following line to your `scripts` section. `"icons: make-icons"`
 1. Create your icons on demand with `npm run icons`
